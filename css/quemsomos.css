@@ -1,0 +1,52 @@
+.wrapp {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 1rem;
+}
+
+.wrapp-txt {
+  padding: 6rem;
+}
+
+.wrapp-img {
+  width: 100%;
+}
+
+.wrapp-img-item {
+  border-radius: 3px;
+  height: 500px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.wrapp_btn {
+  background-color: #ff6d00;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  font-size: 1.2vh;
+  font-weight: 500;
+  height: 42px;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.wrapp_btn:hover {
+  background-color: #fff;
+  border: 2px solid #ff6d00;
+  color: #ff6d00;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapp {
+    padding: 1.5rem;
+  }
+
+  .wrapp-img-item {
+    height: 300px;
+  }
+}

@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+hr {
+  background-color: lightgray;
+  margin: 0 auto;
+  max-width: 1380px;
+  opacity: 20%;
+  margin-bottom: 2rem;
+}
+
+h2,
+h4 {
+  font-weight: bolder;
+}
+
+.hero {
+  height: 92vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+.background {
+  background-image: url(/assets/img/001--carousel.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  opacity: 20%;
+  position: absolute;
+  z-index: -1;
+}
+
+.hero-txt {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  justify-content: center;
+  z-index: 50;
+}
+
+.hero-title {
+  font-weight: bold;
+  text-align: center;
+}

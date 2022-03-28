@@ -1,0 +1,69 @@
+.wrapp {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+}
+
+.form__contato {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2rem 0;
+}
+
+.wrapp__right {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 1rem;
+}
+
+.wrapp_btn {
+  background-color: #ff6d00;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  font-size: 1.2vh;
+  font-weight: 600;
+  height: 42px;
+  outline: none;
+  text-transform: uppercase;
+  width: 160px;
+  width: 160px;
+}
+
+.wrapp_btn:hover {
+  background-color: #fff;
+  border: 2px solid #ff6d00;
+  color: #ff6d00;
+}
+
+iframe {
+  height: 200px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapp {
+    align-items: center;
+    display: flex;
+    height: 68vh;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .wrapp__left,
+  .wrapp__right {
+    padding: 2rem;
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form__contato,
+  .wrapp__right {
+    padding: 1.5rem;
+  }
+}
